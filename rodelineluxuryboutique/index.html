@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rodeline Luxury Boutique</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="home" id="home">
+      <div
+        class="slide active"
+        style="
+          background: url(img/img_bg1.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="content">
+          <span
+            >Rodeling <br />
+            Luxury <br />
+            Boutique</span
+          >
+          <h3>"Nou gen pi bon pri!" <br /><br /></h3>
+          <a href="#" class="btn">Gade pou wè...</a>
+        </div>
+      </div>
+
+      <div
+        class="slide"
+        style="
+          background: url(img/img_bg.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="content">
+          <span
+            >forever <br />
+            beautiful</span
+          >
+          <h3>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+            sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br />
+            Lorem, ipsum dolor
+          </h3>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div
+        class="slide"
+        style="
+          background: url(img/home-bg-3.jpg) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="content">
+          <span
+            >forever <br />
+            beautiful</span
+          >
+          <h3>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+            sed do eiusmod tempor farhan ut labore et dolore magna aliqua.<br />
+            Lorem, ipsum dolor
+          </h3>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+      <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+    </section>
+    <!--
+    <section class="category">
+      <div class="box-container">
+        <a href="#" class="box">
+          <img decoding="async" src="img/pic_01.jpg" />
+          <h3>Cheve a gogo</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img decoding="async" src="img/pic_02.jpg" />
+          <h3>Perik tout kalite</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img decoding="async" src="img/pic_03.jpg" />
+          <h3>Front Lace</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img decoding="async" src="img/pic_06.jpg" />
+          <h3>Nouvo style</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img decoding="async" src="img/pic_05.jpg" />
+          <h3>Nouvo look</h3>
+        </a>
+
+        <a href="#" class="box">
+          <img decoding="async" src="img/pic_04.jpg" />
+          <h3>Bèl perik</h3>
+        </a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="img">
+        <img decoding="async" src="img/about_img01.jpg" alt="" />
+      </div>
+
+      <div class="content">
+        <div class="box">
+          <h3>About <span>Us...</span></h3>
+          <p>
+            Nou se Rodeline Luxury Boutique. Kèlkeswa sa w bezwen an ou pa
+            bezwen al chèche pi lwen wap jwenn li la. Machandiz nou yo update e
+            pri yo se pri piyay...
+          </p>
+          <a href="#" class="btn">read more</a>
+        </div>
+        <div class="icons-container">
+          <div class="icons">
+            <i class="fas fa-address-card"></i>
+            <p>address card</p>
+          </div>
+          <div class="icons">
+            <i class="fas fa-award"></i>
+            <p>award cards</p>
+          </div>
+          <div class="icons">
+            <i class="fas fa-gift"></i>
+            <p>gift cards</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  -->
+    <section class="shop" id="shop">
+      <h1 class="heading">our <span>shop</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="img/perfume70.png" />
+            <div class="icons">
+              <a href="#" class="fas fa-eye"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>GUCCI GUILTY BLACK MEN 1.7 OZ. EDT SP</h3>
+            <div class="price">$69.99-<span>$99.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="img/perfume75.png" />
+            <div class="icons">
+              <a href="#" class="fas fa-eye"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>SET GUCCI GUILTY MEN ( 2 PC )3.0 OZ EDT / 2.5 OZ DEO STICK</h3>
+            <div class="price">$74.99-<span>$105.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="img/perfume30.png" />
+            <div class="icons">
+              <a href="#" class="fas fa-eye"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>MINI ARMANI ACQUA GIO MEN 0.5 EDT SP</h3>
+            <div class="price">$29.99-<span>$49.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="img/perfume80.png" />
+            <div class="icons">
+              <a href="#" class="fas fa-eye"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>ARMANI EMPORIO ARMANI WOMEN 3.4 OZ. EDP SP</h3>
+            <div class="price">$74.99-<span>$89.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="img/perfume9.png" />
+            <div class="icons">
+              <a href="#" class="fas fa-eye"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>MINI VERSACE CRYSTAL NOIR WOMEN 0.17 OZ EDT SP</h3>
+            <div class="price">$11.99-<span>$19.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="img/perfume12.png" />
+            <div class="icons">
+              <a href="#" class="fas fa-eye"></a>
+              <a href="#" class="fas fa-heart"></a>
+              <a href="#" class="fas fa-share"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>PIERRE CARDIN LADIES INTENSE FEMME 1.7 OZ EDT S</h3>
+            <div class="price">$9.99-<span>$19.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+    <section class="banner">
+      <div class="content">
+        <span>special <span>offer</span></span>
+        <h3>upto 50% off</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. farhan Hic,
+          error.ipsum dolor sit amet consectetur,
+        </p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+    </section>
+  -->
+    <section class="gallery" id="gallery">
+      <h1 class="heading">our <span>gallery</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img decoding="async" src="img/hair_1.jpg" />
+          <div class="content">
+            <h3>face</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img decoding="async" src="img/hair_3.jpg" />
+          <div class="content">
+            <h3>eyes</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img decoding="async" src="img/hair_4.jpg" />
+          <div class="content">
+            <h3>lips</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img decoding="async" src="img/hair_6.jpg" />
+          <div class="content">
+            <h3>hairs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img decoding="async" src="img/hair_5.jpg" />
+          <div class="content">
+            <h3>make up</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img decoding="async" src="img/hair_2.jpg" />
+          <div class="content">
+            <h3>skin care</h3>
+            <p>Lorem ipsum dolor sit amet consectetur</p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+    <section class="message" id="message">
+      <form action="">
+        <h3>get in <span>touch</span></h3>
+        <input type="text" placeholder="full name" class="box" />
+        <input type="email" placeholder="email" class="box" />
+        <input type="number" placeholder="phone" class="box" />
+        <textarea
+          placeholder="message"
+          class="box"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="send message" class="btn" />
+      </form>
+    </section>
+-->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Konsèy pou jounen an <span>blogs</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="img/blog-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>12</h3>
+              <span>septembre</span>
+            </div>
+            <a href="#" class="user"><i class="fas fa-user"></i> by Rodeline</a>
+            <a href="#" class="title"> kòman pou w netwaye vizaj ou</a>
+            <p>
+              Visage ou se paspò w, se premye bagay moun wè e se sou li tou you
+              jije w avan...
+            </p>
+            <a href="#" class="btn">Kontinye li...</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="img/blog-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>19</h3>
+              <span>Septembre</span>
+            </div>
+            <a href="#" class="user"><i class="fas fa-user"></i> by Rodeline</a>
+            <a href="#" class="title"> Kòman pou w retire sant fò sou ou.</a>
+            <p>
+              Ke w vlel ke w pa vlel kò nou tout gen odè. Kòman pou w konbat sa
+              san w pa itilize pwodwi chimik...
+            </p>
+            <a href="#" class="btn">Kontinye li...</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="img/blog-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="date">
+              <h3>02</h3>
+              <span>Aug</span>
+            </div>
+            <a href="#" class="user"><i class="fas fa-user"></i> by Rodeline</a>
+            <a href="#" class="title"> Kòman pou w makiye</a>
+            <p>
+              Nou pap bay tet nou manti, gen moun ki sanble ak on maskarad lè yo
+              makiye...
+            </p>
+            <a href="#" class="btn">Kontinye li...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="box">
+        <img decoding="async" src="img/icon-1.png" alt="" />
+        <h3>free delivery</h3>
+        <p>Nou delivre gratis pou tout moun ki fè komand pou $500</p>
+      </div>
+
+      <div class="box">
+        <img decoding="async" src="img/icon-2.png" alt="" />
+        <h3>secure payments</h3>
+        <p>Nou aksepte plizyè fòm pèman.</p>
+      </div>
+
+      <div class="box">
+        <img decoding="async" src="img/icon-3.png" alt="" />
+        <h3>24/7 support</h3>
+        <p>Nou diponib pou kliyan nou yo 24/24</p>
+      </div>
+    </section>
+    <!--
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a class="link" href="#home">
+            <i class="fas fa-angle-right"></i> home</a
+          >
+          <a class="link" href="#about">
+            <i class="fas fa-angle-right"></i> about</a
+          >
+          <a class="link" href="#shop">
+            <i class="fas fa-angle-right"></i> shop</a
+          >
+          <a class="link" href="#gallery">
+            <i class="fas fa-angle-right"></i> gallery</a
+          >
+          <a class="link" href="#message">
+            <i class="fas fa-angle-right"></i> message</a
+          >
+          <a class="link" href="#blogs">
+            <i class="fas fa-angle-right"></i> blogs</a
+          >
+        </div>
+   
+        <div class="box">
+          <h3>extra links</h3>
+          <a class="link" href="#">
+            <i class="fas fa-angle-right"></i> my favorite
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-angle-right"></i> my order
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-angle-right"></i> my wishlist
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-angle-right"></i> private policy
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-angle-right"></i> terms of use
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a class="link" href="#">
+            <i class="fas fa-phone"></i> +123-456-7890
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-phone"></i> +111-222-3333
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-envelope"></i> shaikhfarhan@gmail.com
+          </a>
+          <a class="link" href="#">
+            <i class="fas fa-map"></i> mumbai, india - 401203
+          </a>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              placeholder="enter your email"
+              id=""
+              class="email"
+            />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>dailywebdesign</span> || all rights reserved!
+      </div>
+     </section>
+ -->
+    <script src="main.js" defer data-deferred="1"></script>
+  </body>
+</html>
